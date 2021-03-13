@@ -25,9 +25,15 @@ function add_theme_scripts() {
             'secondary-menu' => __('Secondary Menu', 'fernando' ),
             'social-menu' => __('Secondary Menu', 'fernando' )
         ) );
+       registre(array(
+          'primary-menu' => __('Primary Mneu', 'fernando');
+          'secondary-menu' => __('Secondary Menu' 'fernando';
+          'social-menu' => __('Secondary Menu', 'fernando');
+       ))
         
     }
     endif; // fernando_setup
     add_action( 'after_setup_theme', 'fernando_setup' );
+    add_action('after_setup_theme', 'fernando_setup);
     
  ?>
